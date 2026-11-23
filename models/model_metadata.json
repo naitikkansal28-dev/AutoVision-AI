@@ -1,0 +1,62 @@
+{
+    "champion_model": "Linear Regression",
+    "feature_cols": [
+        "year",
+        "month",
+        "quarter",
+        "sin_month",
+        "cos_month",
+        "is_festive_season",
+        "is_fy_close",
+        "is_year_end",
+        "units_lag_1",
+        "units_lag_2",
+        "units_lag_3",
+        "units_roll_mean_3",
+        "units_roll_mean_6",
+        "units_roll_std_3",
+        "discount_pct_lag_1"
+    ],
+    "test_size_months": 6,
+    "train_samples": 24,
+    "test_samples": 6,
+    "metrics": [
+        {
+            "Model": "Naive Persistence (Baseline)",
+            "MAE": 4.33,
+            "RMSE": 4.65,
+            "R2_Score": 0.3849,
+            "MAPE (%)": 12.24
+        },
+        {
+            "Model": "Linear Regression",
+            "MAE": 2.78,
+            "RMSE": 2.96,
+            "R2_Score": 0.7509,
+            "MAPE (%)": 7.76
+        },
+        {
+            "Model": "Decision Tree Regressor",
+            "MAE": 4.29,
+            "RMSE": 5.7,
+            "R2_Score": 0.0786,
+            "MAPE (%)": 12.42
+        },
+        {
+            "Model": "Random Forest Regressor",
+            "MAE": 4.0,
+            "RMSE": 5.12,
+            "R2_Score": 0.2566,
+            "MAPE (%)": 11.28
+        },
+        {
+            "Model": "Gradient Boosting Regressor",
+            "MAE": 3.42,
+            "RMSE": 4.88,
+            "R2_Score": 0.3234,
+            "MAPE (%)": 9.85
+        }
+    ],
+    "feature_importances": {},
+    "training_date": "2026-11-19 09:12:55"
+}

@@ -1,0 +1,102 @@
+[
+    {
+        "experiment_id": "EXP-001",
+        "timestamp": "2026-11-17 17:58:28",
+        "source": "db",
+        "test_size_months": 6,
+        "train_samples": 24,
+        "test_samples": 6,
+        "champion_model": "Linear Regression",
+        "champion_rmse": 2.96,
+        "champion_mae": 2.78,
+        "champion_r2": 0.7509,
+        "champion_mape": 7.76,
+        "all_metrics": [
+            {
+                "Model": "Naive Persistence (Baseline)",
+                "MAE": 4.33,
+                "RMSE": 4.65,
+                "R2_Score": 0.3849,
+                "MAPE (%)": 12.24
+            },
+            {
+                "Model": "Linear Regression",
+                "MAE": 2.78,
+                "RMSE": 2.96,
+                "R2_Score": 0.7509,
+                "MAPE (%)": 7.76
+            },
+            {
+                "Model": "Decision Tree Regressor",
+                "MAE": 4.29,
+                "RMSE": 5.7,
+                "R2_Score": 0.0786,
+                "MAPE (%)": 12.42
+            },
+            {
+                "Model": "Random Forest Regressor",
+                "MAE": 4.0,
+                "RMSE": 5.12,
+                "R2_Score": 0.2566,
+                "MAPE (%)": 11.28
+            },
+            {
+                "Model": "Gradient Boosting Regressor",
+                "MAE": 3.42,
+                "RMSE": 4.88,
+                "R2_Score": 0.3234,
+                "MAPE (%)": 9.85
+            }
+        ]
+    },
+    {
+        "experiment_id": "EXP-002",
+        "timestamp": "2026-11-19 09:12:55",
+        "source": "db",
+        "test_size_months": 6,
+        "train_samples": 24,
+        "test_samples": 6,
+        "champion_model": "Linear Regression",
+        "champion_rmse": 2.96,
+        "champion_mae": 2.78,
+        "champion_r2": 0.7509,
+        "champion_mape": 7.76,
+        "all_metrics": [
+            {
+                "Model": "Naive Persistence (Baseline)",
+                "MAE": 4.33,
+                "RMSE": 4.65,
+                "R2_Score": 0.3849,
+                "MAPE (%)": 12.24
+            },
+            {
+                "Model": "Linear Regression",
+                "MAE": 2.78,
+                "RMSE": 2.96,
+                "R2_Score": 0.7509,
+                "MAPE (%)": 7.76
+            },
+            {
+                "Model": "Decision Tree Regressor",
+                "MAE": 4.29,
+                "RMSE": 5.7,
+                "R2_Score": 0.0786,
+                "MAPE (%)": 12.42
+            },
+            {
+                "Model": "Random Forest Regressor",
+                "MAE": 4.0,
+                "RMSE": 5.12,
+                "R2_Score": 0.2566,
+                "MAPE (%)": 11.28
+            },
+            {
+                "Model": "Gradient Boosting Regressor",
+                "MAE": 3.42,
+                "RMSE": 4.88,
+                "R2_Score": 0.3234,
+                "MAPE (%)": 9.85
+            }
+        ]
+    }
+]
